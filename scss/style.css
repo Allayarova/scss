@@ -1,0 +1,26 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: aqua;
+}
+
+.header__navbar {
+  background-color: blue;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.header__navbar--list {
+  width: 150px;
+  list-style: none;
+}
+.header__navbar--list li a {
+  text-decoration: none;
+}
+
+/*# sourceMappingURL=style.css.map */

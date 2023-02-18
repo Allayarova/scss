@@ -1,0 +1,34 @@
+$primary-color: aqua;
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: $primary-color ;
+}
+
+
+.header{
+    &__navbar{
+        background-color: blue;
+        height: 60px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        &--list{
+            width: 150px;
+            list-style: none;
+
+            li {
+                a{
+                    text-decoration: none;
+                }
+            }
+        }
+    }
+
+
+}
